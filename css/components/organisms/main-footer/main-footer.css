@@ -14,13 +14,14 @@
 	font-family: var(--main-title-font);
 	font-weight: var(--regular);
 	padding: 0.2rem 0.6rem 0.2rem 0.6rem;
-	background: #FF8080;
+	background: var(--color-box-rgba);
 	font-size: 0.8rem;
 	color: var(--color-text-description);
 	text-transform: uppercase;
+	border-radius: 0.3rem 0.3rem 0 0;
 }
 .main-footer__title_dark {
-	background-color: #000;
+	background-color: var(--color-main);
 }
 .main-footer p, .main-footer__description {
 	margin: 0;
@@ -32,7 +33,7 @@
 	color: var(--color-text-description);
 	padding: 0.9rem 0.6rem 0.9rem 0.6rem;
 	background: rgba(0, 0, 0, 0.2);
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 0.3rem 0.3rem;
 }
 
 /* RWD */

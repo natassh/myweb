@@ -35,16 +35,6 @@
 		font-feature-settings: "ss01";
 	}
 }
-.navidad:before {
-  display: block;
-  content:"";
-  background: url(../files/navidad.png) no-repeat;
-  width: 50px;
-  height: 50px;
-  top:0;
-  left: 0;
-
-}
 /*
 html::before {
 	content:"";

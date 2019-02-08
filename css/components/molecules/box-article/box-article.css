@@ -1,20 +1,23 @@
 .box-article {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 	width: auto;
-	display: block;
+	min-height: 22vh;
 	text-decoration: none;
 	border-radius: 4px;
-	background-color: #FF8080;
+	background-color: var(--color-box-rgba);
 	line-height: 1.2;
-	min-height: 22vh;
-	padding: 10px;
-	border-radius: 4px;
+	padding: 0.8rem;
+	border-radius: 0.3rem;
 	margin: 0;
 }
 .box-article_dark {
-	background-color: #000;
+	background-color: var(--color-main-rgba);
 }
+
 .box-article__header {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.7rem;
 }
 .box-article__title {
 	margin: 0;
@@ -47,7 +50,12 @@
 
 @media screen and (max-width: 1580px) {
 	body .box-article {
-		min-height: 25vh;
+		min-height: 23vh;
+	}
+}
+@media screen and (max-width: 1059px) {
+	body .box-article {
+		min-height: 28vh;
 	}
 }
 @media screen and (max-width: 521px) {
