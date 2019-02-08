@@ -11,16 +11,15 @@
 }
 
 .main-header:hover .logo a::first-letter {
-	color: var(--color-text-title);
+	color: var(--color-box);
 }
 
 .main-header .logo a::first-letter {
 	font-size: 4rem;
 	font-variation-settings: "wdth" 1000;
 }
-
 .main-header:hover .subtitle {
-	color: var(--color-text-title);
+	color: var(--color-box);
 }
 
 
