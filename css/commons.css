@@ -15,7 +15,7 @@ body {
 body .ly-content {
 	display: grid;
 	grid-template-columns: repeat(6, 14vw);
-	grid-template-rows: repeat(6, 14vw) 1fr;
+	grid-template-rows: repeat(6, 12vw) 1fr;
 	grid-gap: 2vw;
 }
 
@@ -89,16 +89,35 @@ ANIMATIONS
 
 /* RWD */
 
-@media screen and (max-width: 1445px) {
+@media screen and (max-width: 1660px) {
 	body .ly-content {
-		grid-template-columns: repeat(5, 17vw);
-    grid-template-rows: repeat(6, 16vw) 1fr;
+		grid-template-rows: repeat(6, 13vw) 1fr;
 	}
 }
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1485px) {
 	body .ly-content {
-		grid-template-columns: repeat(4, 20vw);
-    grid-template-rows: repeat(6, 20vw) 1fr;
+		grid-template-columns: repeat(5, 17vw);
+    	grid-template-rows: repeat(6, 16vw) 1fr;
+	}
+}
+@media screen and (max-width: 1245px) {
+	body .ly-content {
+		grid-template-columns: repeat(4, 19vw);
+    	grid-template-rows: repeat(6, 18vw) 1fr;
+	}
+}
+@media screen and (max-width: 1125px) {
+	body {
+		margin: 3rem 3rem;
+	}
+	body .ly-content {
+		grid-template-columns: repeat(4, 21vw);
+    	grid-template-rows: repeat(6, 20vw) 1fr;
+	}
+}
+@media screen and (max-width: 1035px) {
+	body .ly-content {
+    	grid-template-rows: repeat(6, 22vw) 1fr;
 	}
 }
 @media screen and (max-width: 978px) {

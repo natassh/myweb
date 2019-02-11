@@ -14,7 +14,7 @@
 	font-family: var(--main-title-font);
 	font-weight: var(--regular);
 	padding: 0.2rem 0.6rem 0.2rem 0.6rem;
-	background: var(--color-box-rgba);
+	background: var(--color-main-rgba);
 	font-size: 0.8rem;
 	color: var(--color-text-description);
 	text-transform: uppercase;
@@ -38,14 +38,14 @@
 
 /* RWD */
 
-@media screen and (max-width: 1445px) {
+@media screen and (max-width: 1485px) {
 	body .main-footer {
 		grid-column: 4 / 6;
 	}
 }
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1245px) {
 	body .main-footer {
-		grid-column: 3 / 6;
+		grid-column: 4 / 6;
 	}
 }
 @media screen and (max-width: 978px) {
