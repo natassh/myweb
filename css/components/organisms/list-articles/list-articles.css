@@ -72,6 +72,17 @@
 	grid-column: 2 / 4;
 	/*min-height: 2vh;*/
 }
+.main-content article:nth-child(9) {
+	grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    background-color: transparent;
+    width: 50%;
+    position: relative;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* RWD */
 
