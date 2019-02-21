@@ -65,13 +65,8 @@ body .ly-content {
 	animation-duration: 4s;
 }
 
-
-
-
-
-
-
-.c-globe__element-wrapper, .svg-globe {
+/* Anima woman */
+.c-globe__element-wrapper, .svg-woman {
     position: relative;
 }
 .c-globe__element-wrapper {
@@ -80,11 +75,11 @@ body .ly-content {
 svg:not(:root) {
     overflow: hidden;
 }
-.svg-globe img{
+.svg-woman img{
 	display: block;
 	width: 100%;
 }
-.svg-globe {
+.svg-woman {
     height: 5rem;
     width: 5rem;
     z-index: 2;
@@ -172,8 +167,6 @@ svg:not(:root) {
     left: 1.8rem;
     top: 2rem;
 }
-
-
 @keyframes a {
 	0% {
 		z-index: 3;
