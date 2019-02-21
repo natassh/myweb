@@ -96,7 +96,7 @@ svg:not(:root) {
 	color: #d94121;
     display: block;
     /*background-color: var(--color-title);*/
-    background-image: url(../files/html53.png);
+    background-image: url(../files/html5.png);
     height: 1.6rem;
 	width: 1.6rem;
 	background-size: 70%;
